@@ -1,0 +1,59 @@
+body{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(235,229,270);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    background-color: #3b5998;
+    background-image: linear-gradient(#4e69a2,#3b5998,50%);
+    border-bottom: 1px solid #133783;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.6em 0em;
+   
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+#brand{
+    font-size: 230%;
+    align-self: center;
+    font-weight: bold;
+}
+header form{
+    color: white;
+    margin-left: 3%;
+}
+header form ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+    margin-bottom: 0%;
+    padding: 0;
+}
+header li{
+    
+    align-self: flex-start;
+  padding: 0.5em 0.2em;
+  font-size: 80%;
+}
+header form input{
+    margin-bottom: 0.8em;
+    height: 18px;
+
+}
+header form input[type="submit"]{
+    background-color: #4267b4;
+    border: 1px solid;
+    
+    height: 24px;
+    font-weight: bold ;
+    color: white;
+    margin-top: 25%;
+    cursor: pointer;
+}
